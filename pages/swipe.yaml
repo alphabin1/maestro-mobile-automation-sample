@@ -1,0 +1,41 @@
+appId: "com.wdiodemoapp"
+---
+
+- tapOn: "Swipe"
+- assertVisible: "Swipe horizontal"
+- assertVisible: "Or swipe vertical to find what I'm hiding."
+
+- assertVisible: "FULLY OPEN SOURCE"
+
+- swipe:
+    direction: LEFT
+- assertVisible: "GREAT COMMUNITY"
+
+- swipe:
+    direction: LEFT
+- assertVisible: "JS.FOUNDATION"
+
+- swipe:
+    direction: LEFT
+- assertVisible: "SUPPORT VIDEOS"
+
+- swipe:
+    direction: LEFT
+- assertVisible: "EXTENDABLE"
+
+- swipe:
+    direction: LEFT
+- assertVisible: "COMPATIBLE"
+
+- swipe: 
+    direction: RIGHT
+- assertVisible: "EXTENDABLE"
+
+- swipe:
+    direction: RIGHT
+- assertVisible: "SUPPORT VIDEOS"
+
+- swipe:
+    direction: RIGHT
+- assertVisible: "JS.FOUNDATION"
+- back

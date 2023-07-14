@@ -1,0 +1,11 @@
+appId: "com.wdiodemoapp"
+---
+
+- tapOn: "Login"
+- tapOn: "Email"
+- assertVisible: "test@gmail.com"
+- tapOn: "button-LOGIN"
+- assertVisible: "Success"
+- assertVisible: "You are logged in!"
+- tapOn: "OK"
+- back
