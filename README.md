@@ -1,4 +1,4 @@
-# maestro-mobile-testing
+# Maestro Mobile Testing Example
 Welcome to the automation testing for the Demo application using Maestro, a powerful mobile testing framework. This repository contains the necessary resources to perform ene-to-end testing on the Demo application.
 
 ## Pre-Requisites
