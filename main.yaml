@@ -1,0 +1,11 @@
+appId: "com.wdiodemoapp"
+---
+
+- launchApp:
+    clearState: true
+
+- runFlow: pages/webView.yaml
+- runFlow: pages/signup.yaml
+- runFlow: pages/login.yaml
+- runFlow: pages/forms.yaml
+- runFlow: pages/swipe.yaml

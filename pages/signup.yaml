@@ -1,0 +1,16 @@
+appId: "com.wdiodemoapp"
+---
+
+- tapOn: "Login"
+- tapOn: "Sign up"
+- tapOn: "input-email"
+- inputText: "test@gmail.com"
+- tapOn: "input-password"
+- inputText: "12qw!@QW"
+- tapOn: "input-repeat-password"
+- inputText: "12qw!@QW"
+- tapOn: "button-SIGN UP"
+- assertVisible: "Signed Up!"
+- assertVisible: "You successfully signed up!"
+- tapOn: "OK"
+- back

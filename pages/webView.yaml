@@ -1,0 +1,152 @@
+appId: "com.wdiodemoapp"
+---
+
+- assertVisible: "WEBDRIVER"
+- assertVisible: "Demo app for the appium-boilerplate"
+- assertVisible: "Support"
+- assertVisible:
+    text: "Home"
+    index: 0
+- assertVisible: "Webview"
+- assertVisible: "Login"
+- assertVisible: "Forms"
+- assertVisible: "Swipe"
+- assertVisible: "Drag"
+- tapOn: "Webview"
+- assertVisible: "\U0001f1fa\U0001f1e6 \_We stand with the people of Ukraine. We encourage\
+    \ compassion, and hope for peace. \_ \U0001f1fa\U0001f1e6"
+- assertVisible: "Please support humanitarian efforts for the Ukraine crisis through\
+    \ the "
+- assertVisible: "! #StandWithUkraine"
+
+- tapOn: "Toggle navigation bar"
+
+- tapOn: "Docs"
+- assertVisible:
+    text: "Getting Started"
+    index: 1
+- tapOn: "Toggle navigation bar"
+- assertVisible: "Why Webdriver.IO?"
+- assertVisible: "Boilerplate Projects"
+- tapOn: "Core Concepts"
+- assertVisible: "Setup Types"
+- assertVisible: "Automation Protocols"
+- assertVisible: "Multiremote"
+- assertVisible: "Auto-waiting"
+- tapOn: "Core Concepts"
+
+- tapOn: "Toggle the collapsible sidebar category 'Configuration'"
+- assertVisible: "Driver Binaries"
+- assertVisible: "Capabilities"
+- assertVisible: "Appium Setup"
+- assertVisible: "Babel Setup"
+- assertVisible: "TypeScript Setup"
+- assertVisible: "Proxy Setup"
+- tapOn: "Toggle the collapsible sidebar category 'Configuration'"
+
+- tapOn: "Guides"
+- assertVisible: "Selectors"
+- assertVisible: "Timeouts"
+- assertVisible: "Accessibility Testing"
+- assertVisible: "Request Mocks and Spies"
+- assertVisible: "Custom Commands"
+- tapOn: "Guides"
+
+- tapOn: "Toggle the collapsible sidebar category 'Testrunner'"
+- assertVisible: "Configuration File"
+- assertVisible: "Runner"
+- assertVisible: "Frameworks"
+- assertVisible: "Assertion"
+- assertVisible: "Organizing Test Suite"
+- assertVisible: "Retry Flaky Tests"
+- assertVisible: "Watch Test Files"
+- assertVisible: "Custom Reporter"
+- assertVisible: "Custom Services"
+- tapOn: "Toggle the collapsible sidebar category 'Testrunner'"
+
+- tapOn: "Desktop Testing"
+- assertVisible: "MacOS"
+- assertVisible: "Windows"
+- assertVisible: "Electron"
+- tapOn: "Desktop Testing"
+
+- tapOn: "Toggle the collapsible sidebar category 'Component Testing'"
+- assertVisible: "Framework Setup"
+- assertVisible: "Coverage"
+- assertVisible: "Mocking"
+- tapOn: "Toggle the collapsible sidebar category 'Component Testing'"
+
+- tapOn: "Extension Testing"
+- assertVisible: "Web Extension Testing"
+- assertVisible: "VS Code Extension Testing"
+- tapOn: "Extension Testing"
+
+- tapOn: "Migrate"
+- assertVisible: "From v5 to v6"
+- assertVisible: "From v6 to v7"
+- assertVisible: "From Protractor"
+- assertVisible: "From Sync to Async"
+- tapOn: "Migrate"
+
+- tapOn: "Integration"
+- scrollUntilVisible:
+    element: "Bamboo"
+    direction: DOWN
+- assertVisible: "Using Cloud Services"
+- assertVisible: "Autocompletion"
+- assertVisible: "Docker"
+- assertVisible: "Github Actions"
+- assertVisible: "Jenkins"
+- assertVisible: "Bamboo"
+- tapOn: "Integration"
+
+- tapOn: "Reporter"
+- assertVisible: "Allure Reporter"
+- assertVisible: "Concise Reporter"
+- scrollUntilVisible:
+    element: "Light Reporter Reporter"
+    direction: DOWN
+- assertVisible: "Dot Reporter"
+- assertVisible: "Junit Reporter"
+- assertVisible: "Spec Reporter"
+- assertVisible: "Sumologic Reporter"
+- assertVisible: "Report Portal Reporter"
+- assertVisible: "Video Reporter"
+- assertVisible: "HTML Reporter"
+- assertVisible: "JSON Reporter"
+- assertVisible: "Mochawesome Reporter"
+- assertVisible: "Timeline Reporter"
+- assertVisible: "CucumberJS JSON Reporter"
+- assertVisible: "Delta Reporter Reporter"
+- assertVisible: "Teamcity Reporter Reporter"
+- assertVisible: "Testrail Reporter Reporter"
+- assertVisible: "Light Reporter Reporter"
+- tapOn: "Reporter"
+
+- tapOn: "Services"
+- scrollUntilVisible:
+    element: "Static Server Service"
+    direction: DOWN
+- assertVisible: "Static Server Service"
+- scrollUntilVisible:
+    element: "Zafira Listener Service"
+    direction: DOWN
+- assertVisible: "Zafira Listener Service"
+- scrollUntilVisible:
+    element: "Re-run Service"
+    direction: DOWN
+- assertVisible: "Re-run Service"
+- scrollUntilVisible:
+    element: "Auto-detect missing imports w/eslint Service"
+    direction: DOWN
+- assertVisible: "Auto-detect missing imports w/eslint Service"
+- scrollUntilVisible:
+    element: "Robonut Service"
+    direction: DOWN
+- assertVisible: "Robonut Service"
+- scrollUntilVisible:
+    element: "Services"
+    direction: UP
+- tapOn: "Services"
+
+- tapOn: "Close navigation bar"

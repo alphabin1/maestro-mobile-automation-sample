@@ -1,0 +1,26 @@
+appId: "com.wdiodemoapp"
+---
+
+- tapOn: "Forms"
+- assertVisible: "Form components"
+- assertVisible: "Input field:"
+- tapOn: "text-input"
+- inputText: "This is the demo application."
+- assertVisible: "Switch:"
+- tapOn: "OFF"
+
+- scrollUntilVisible:
+    element: "Select an item..."
+    direction: DOWN
+- tapOn: "Select an item..."
+- tapOn: "This app is awesome"
+- assertVisible: "Buttons"
+- assertVisible: "button-Active"
+- tapOn: "button-Active"
+- assertVisible:
+    id: "android:id/alertTitle"
+- assertVisible:
+    id: "android:id/message"
+- tapOn:
+    id: "android:id/button1"
+- back
