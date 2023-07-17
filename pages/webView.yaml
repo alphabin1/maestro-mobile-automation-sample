@@ -61,9 +61,15 @@ appId: "com.wdiodemoapp"
 - assertVisible: "Retry Flaky Tests"
 - assertVisible: "Watch Test Files"
 - assertVisible: "Custom Reporter"
+- scrollUntilVisible:
+    element: "Custom Services"
+    direction: DOWN
 - assertVisible: "Custom Services"
-- tapOn: "Toggle the collapsible sidebar category 'Testrunner'"
+# - tapOn: "Toggle the collapsible sidebar category 'Testrunner'"
 
+- scrollUntilVisible:
+    element: "Desktop Testing"
+    direction: DOWN
 - tapOn: "Desktop Testing"
 - assertVisible: "MacOS"
 - assertVisible: "Windows"
@@ -123,30 +129,4 @@ appId: "com.wdiodemoapp"
 - assertVisible: "Light Reporter Reporter"
 - tapOn: "Reporter"
 
-- tapOn: "Services"
-- scrollUntilVisible:
-    element: "Static Server Service"
-    direction: DOWN
-- assertVisible: "Static Server Service"
-- scrollUntilVisible:
-    element: "Zafira Listener Service"
-    direction: DOWN
-- assertVisible: "Zafira Listener Service"
-- scrollUntilVisible:
-    element: "Re-run Service"
-    direction: DOWN
-- assertVisible: "Re-run Service"
-- scrollUntilVisible:
-    element: "Auto-detect missing imports w/eslint Service"
-    direction: DOWN
-- assertVisible: "Auto-detect missing imports w/eslint Service"
-- scrollUntilVisible:
-    element: "Robonut Service"
-    direction: DOWN
-- assertVisible: "Robonut Service"
-- scrollUntilVisible:
-    element: "Services"
-    direction: UP
-- tapOn: "Services"
-
-- tapOn: "Close navigation bar"
+# - tapOn: "Close navigation bar"

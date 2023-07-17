@@ -6,6 +6,9 @@ appId: "com.wdiodemoapp"
 - assertVisible: "Input field:"
 - tapOn: "text-input"
 - inputText: "This is the demo application."
+- scrollUntilVisible:
+    element: "Switch:"
+    direction: DOWN
 - assertVisible: "Switch:"
 - tapOn: "OFF"
 
